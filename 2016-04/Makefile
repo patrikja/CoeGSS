@@ -17,4 +17,3 @@ ${NAME}.html: ${NAME}.md
 # Dependencies:
 # * http://pandoc.org/ - a universal document converter
 # * http://pandoc.org/demo/example9/producing-slide-shows-with-pandoc.html
-# * The CoeGSS logo coegss-logo-2.png

@@ -4,6 +4,4 @@ Invited presentation at [Alan Turing Institute](https://turing.ac.uk/) [Symposiu
 
 [Presentation source](Jansson_Reproducibility_DSL.md)
 
-(I know that the pdf version is not immediately reproducible due to lack of an image file. I will try to get permission to upload that as well.)
-
 [Script](Jansson_Reproducibility_DSL_script.md)
