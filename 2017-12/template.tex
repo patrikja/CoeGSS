@@ -1,0 +1,136 @@
+\usepackage{pgf}
+\usepackage{tikz}
+% \usepackage{hyperref} %% for run: links
+\hypersetup{pdfpagemode={FullScreen}}
+
+% size of CoeGSS Powerpoint template: width=10in, height=7.5in, ratio: 4/3
+\geometry{paperwidth=140mm,paperheight=105mm}
+
+%%%%%%%%%%%%%%%colors%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\definecolor{coegss-yellow}{RGB}{236,157,34}
+\definecolor{coegss-black}{RGB}{56,56,56}
+\setbeamercolor{title}{fg=coegss-black,bg=white}
+\setbeamercolor{subtitle}{fg=coegss-yellow,bg=white}
+\setbeamercolor{secsubsec}{fg=coegss-black,bg=coegss-yellow}
+\setbeamercolor{frametitle}{fg=coegss-yellow,bg=white}
+\setbeamercolor*{structure}{fg=coegss-yellow}%color of items
+%%%%%%%%%%%%%%%%%%%%%%fonts%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\setbeamerfont*{title}{size=\Large, family=\fontfamily{ugq}\selectfont,series=\bfseries}
+
+\setbeamerfont*{subtitle}{size=\large, family={\fontfamily{ugq}\selectfont}}
+\setbeamerfont*{frametitle}{size=\large, family={\fontfamily{ugq}\selectfont}, series=\bfseries}
+\setbeamerfont*{normal text}{size=\normalsize, family={\fontfamily{urw}}}
+\setbeamerfont*{author in head/foot}{size*={6pt}{4pt}, family={\fontfamily{urw}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%layout frames(outer theme)%%%%%%%%%%%%%%%%%
+
+\setbeamertemplate{headline}
+{\vskip10pt
+  \leavevmode
+  \hbox{%
+  \begin{beamercolorbox}[wd=\paperwidth,ht=2.5ex,dp=1ex]{frametitle}%
+     \vskip30pt
+%    \hspace*{2em}\includegraphics[width=2.5cm]{../img/CoeGSS_logo_RGB}
+  \end{beamercolorbox}
+ }
+}
+\setbeamertemplate{frametitle}
+{\vskip20pt
+  \leavevmode
+  \hbox{%
+  \begin{beamercolorbox}[wd=\paperwidth,ht=2.5ex,dp=1ex]{frametitle}%
+    \begin{center}\hspace*{2em}\usebeamerfont{frametitle}\insertframetitle\end{center}
+  \end{beamercolorbox}
+  }%
+}
+
+
+\setbeamertemplate{footline}
+{
+  \leavevmode%
+  \hbox{%
+  \hspace*{7mm}\raisebox{3.78mm}{\includegraphics[width=119mm]{../img/CoeGSS_footline.jpg} \hspace{5mm} \raisebox{0.7mm}{\insertframenumber{}}}
+  }%
+  \vskip0pt%
+%  \begin{beamercolorbox}[wd=.5\paperwidth,ht=2.25ex,dp=1ex,center]{author in head/foot}%
+%     \usebeamerfont{author in head/foot}\instlogo~~ \insertshortauthor~~(\insertshortinstitute)
+%   \end{beamercolorbox}%
+%   \begin{beamercolorbox}[wd=.5\paperwidth,ht=2.25ex,dp=1ex,center]{author in head/foot}%
+%     \usebeamerfont{author in head/foot}\instlogo~~ \insertshortauthor~~(\insertshortinstitute)
+%   \end{beamercolorbox}%
+%
+%   \begin{beamercolorbox}[wd=.5\paperwidth,ht=2.25ex,dp=1ex,right]{date in head/foot}%
+%     \usebeamerfont{date in head/foot}\insertshortdate{}\hspace*{2em}
+%     \insertframenumber{} \hspace*{2ex}
+%   \end{beamercolorbox}
+}
+
+% Define items to be dashes
+\setbeamertemplate{itemize items}%
+{\scriptsize\raise1.25pt\hbox{\donotcoloroutermaths\usebeamercolor{structure}$\arrowvert$}}
+\setbeamertemplate{itemize subitem}
+{\tiny\raise1.5pt\hbox{\donotcoloroutermaths\usebeamercolor{structure}$\arrowvert$}}
+\setbeamertemplate{itemize subsubitem}{\tiny\raise1.5pt\hbox{\donotcoloroutermaths\usebeamercolor{structure}$\arrowvert$}}
+
+% Define items of enumerate environments to be simply numbers
+\setbeamertemplate{enumerate item}{\insertenumlabel.}
+\setbeamertemplate{enumerate subitem}{\insertenumlabel.\insertsubenumlabel}
+\setbeamertemplate{enumerate subsubitem}{\insertenumlabel.\insertsubenumlabel.\insertsubsubenumlabel}
+
+% Hide navigation symbols
+\setbeamertemplate{navigation symbols}{}
+
+%titlepage
+
+
+\makeatletter
+\setbeamertemplate{title page}
+{
+  \vbox{}
+  \vfill
+  \begin{centering}
+    {\usebeamercolor[fg]{titlegraphic}\inserttitlegraphic\par}
+    \vskip0.5em%
+    \begin{beamercolorbox}[sep=8pt,center]{title}
+      \usebeamerfont{title}\textbf{\inserttitle}\par%
+      \vskip-0.25em%
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[sep=0pt,center]{subtitle}
+      \ifx\insertsubtitle\@empty%
+      \else%
+        \vskip0.25em%
+        {\usebeamerfont{subtitle}\insertsubtitle\par}%
+      \fi%
+    \end{beamercolorbox}%
+    \vskip1em\par
+    \begin{beamercolorbox}[sep=8pt,center]{author}
+      \usebeamerfont{normal text}\insertauthor \usebeamercolor[coegss-yellow]{institute}\hskip1cm\insertinstitute\instlogo
+    \end{beamercolorbox}
+    \begin{beamercolorbox}[sep=8pt,center]{institute}
+      \usebeamerfont{normal text}
+    \end{beamercolorbox}
+    \begin{beamercolorbox}[sep=8pt,center]{date}
+      \usebeamerfont{normal text}\insertdate
+    \end{beamercolorbox}\vskip0.5em
+  \end{centering}
+  \vfill
+}
+
+
+
+\makeatother
+\author{Patrik Jansson}%%%%%%%%%%%%%%%%%%
+\institute{Chalmers University of Technology}
+\title{GSS applications and challenges}
+\date{2017-12-12}
+\titlegraphic{\includegraphics[width=4cm]{../img/CoeGSS_logo_RGB}}
+\newcommand{\instlogo}{}%add here the logo of your institution
+% \includegraphics[height=5ex]{AvancezChalmersU_black_right.png} -- The logo is basically the same as the name
+\begin{document}
+{\setbeamertemplate{footline}{}
+ \setbeamertemplate{headline}{}
+\begin{frame}\titlepage\end{frame}
+}
