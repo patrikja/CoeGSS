@@ -1,8 +1,6 @@
-# Background
+# My GSS background
 
 * [Patrik Jansson](https://www.chalmers.se/en/staff/Pages/patrik-jansson.aspx), Prof. of Comp. Sci., Chalmers, Sweden
-    * Programming languages
-    * Software technology
 * Two current EU projects about "Global Systems Science (GSS)"
     * [CoeGSS.eu](http://www.CoeGSS.eu/)
     * [GRACeFUL-project.eu](http://www.GRACeFUL-project.eu/)
@@ -11,11 +9,6 @@
 GSS is about developing systems, theories, languages and tools for
 computer-aided policy making with potentially global implications.
 \end{quote}
-
-Note that any computer simulation (and any model) of a global system
-is bound to be a rather crude approximation in some aspects. Hopefully
-we can still make it a good approximation in the aspects we want to
-study.
 
 ## Earlier history:
 
@@ -62,14 +55,11 @@ TODO: perhaps look up GRACeFUL slides about the gap?
     * running code /= HPC-ready code
 * Access to data
     * open access data
-    * integrity
-    * confidentialty
+    * confidentialty, security
     * standards
 * Reproducibility
-    * open source
-    * models, theories
+    * open source models, theories
     * tools, methodologies
-    * proper meta-data
 
 # Conclusions
 
@@ -94,6 +84,7 @@ computer-aided policy making with potentially global implications.
 jaeger13:GSSshort
 
 Related projects:
+
 * CoeGSS, GRACeFUL, DOLFINS, FOC, SIMPOL, SYMPHONY
 
 
