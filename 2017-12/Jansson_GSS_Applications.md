@@ -10,11 +10,15 @@ GSS is about developing systems, theories, languages and tools for
 computer-aided policy making with potentially global implications.
 \end{quote}
 
-## Earlier history:
+# My earlier GSS history:
 
 * 2008 onwards: Collaboration with the Potsdam Institute for Climate Impact Research (PIK) and the Global Climate Forum (GCF)
-* FP7 FET-Open project 2010-2013: GSDP (Carlo Jaeger)
+* FP7 FET-Open project 2010-2013: GSDP (Carlo Jaeger) \GSSpaper
+
+
 * leading up to the FETPROACT1 call
+
+
 
 # Theory and technology for "Computer-Aided policy making"
 
