@@ -27,7 +27,7 @@ computer-aided policy making with potentially global implications.
     * simulation of plausible system trajectories
 * Network Science
     * the evolution of the contact (or contagion) networks
-* High Performance Commputing (HPC)
+* High Performance Computing (HPC)
     * [covered in the keynote by B. Koller]
 
 # GSS Applications: some pilot projects
@@ -38,7 +38,7 @@ computer-aided policy making with potentially global implications.
     * smoking and obesity spreads over facebook!
 * Global Urbanisation
     * real-estate pricing, and public transport as cities grow
-* Climate Resiliant Urban Design
+* Climate Resilient Urban Design
     * computer-aided stakeholder interaction
     * constraint solving and water management
 
@@ -67,7 +67,7 @@ study.
     * a research prototype is *far* from HPC-ready code
 * Access to data
     * open access data
-    * confidentialty, security
+    * confidentiality, security
     * standards
 * Reproducibility
     * open source models, theories
@@ -84,7 +84,7 @@ computer-aided policy making with potentially global implications.
     * Green Growth
     * Health Habits
     * Global Urbanisation
-    * Climate Resiliant Urban Design
+    * Climate Resilient Urban Design
 * Challenges
     * Validation & Correctness
     * Mature implementations
@@ -93,34 +93,17 @@ computer-aided policy making with potentially global implications.
 
 # Bibliography and links
 
-jaeger13:GSSshort
-
 Related projects:
 
 * CoeGSS, GRACeFUL, DOLFINS, FOC, SIMPOL, SYMPHONY
 
+Some papers:
 
-[P7.GSS] C. Jaeger, P. Jansson, S. van der Leeuw, M. Resch and J. D. Tàbara. GSS: Towards a Research Program for Global Systems Science, Conference Version, prepared for the Second Open Global Systems Science Conference June 10-12, 2013, Brussels.
+* Botta, Jansson, Ionescu. The impact of uncertainty on optimal emission policies, In submission to ESD, 2017.
+* Botta & Jansson et al. Sequential decision problems, dependent types and generic solutions, LMCS 2017.
+* Botta, Jansson, Ionescu. Contributions to a computational theory of policy advice and avoidability, JFP 2017.
+* Jaeger, Jansson, van der Leeuw, Resch, Tàbara. GSS: Towards a Research Program for Global Systems Science, Conference Version, prepared for the Second Open GSS Conference, 2013, Brussels.
+* Ionescu, Jansson: Dependently-Typed Programming in Scientific Computing - Examples from Economic Modelling. Implementation and Application of Functional Languages (IFL) 2012: 140-156.
+* Ionescu, Jansson: Testing versus proving in climate impact research.  TYPES 2011: 41-54
 
-[P7.Economy] Cezar Ionescu, Patrik Jansson: Dependently-Typed Programming in Scientific Computing - Examples from Economic Modelling. Implementation and Application of Functional Languages (IFL) 2012: 140-156.
-
-[P7.Climate] Cezar Ionescu, Patrik Jansson: Testing versus proving in climate impact research.  TYPES 2011: 41-54
-
-[P7.Systems] Daniel Lincke, Patrik Jansson, Marcin Zalewski, Cezar Ionescu: Generic Libraries in C++ with Concepts from High-Level Domain Descriptions in Haskell - A Domain-Specific Library for Computational Vulnerability Assessment. IFIP TC 2 Working Conference, DSL 2009: 236-261
-
-[P7.Exchange] Nicola Botta, Antoine Mandel, Cezar Ionescu, Mareen Hofmann, Daniel Lincke, Sybille Schupp, Carlo Jaeger: A Functional Framework for Agent-Based Models of Exchange.  Applied Mathematics and Computation, Vol. 218 Issue 8: 4025-4040.
-
-Relevant Projects (Patrik Jansson, Chalmers)
-* GRACeFUL: Global systems Rapid Assessment tools through Constraints FUnctional Languages (H2020-FETPROACT-2014: GSS - 2015-2018)
-* GSDP: Global Systems Dynamics and Policy (FETOPEN 2010-2013)
-* RAWFP: Resource AWare Functional Programming (Swedish Foundation for Strategic Research 2011-2016)
-* StrongLib: Strongly Typed Libraries for Programs and Proofs (Swedish Research Council 2011-2015)
-* FunC: "Putting Functional Programming to Work - Software Design and Verification using Domain Specific Languages" (Swedish Research Council 2009-2012)
-
-Online sources:
-* https://www.graceful-project.eu/
-* https://sites.google.com/site/fhpcworkshops/
-* http://global-systems-science.eu/
-* http://global-systems-science.org/
-* http://www.sigplan.org/
-* https://github.com/patrikja
+\nocite{DBLP:journals/corr/BottaJICB16, botta_jansson_ionescu_2017_avoidability, Algehed:2017:VVD:3122948.3122953, SandbergEriksson:2016:AFT:2976022.2976025, esd-2017-86}
