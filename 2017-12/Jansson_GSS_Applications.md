@@ -15,24 +15,32 @@ computer-aided policy making with potentially global implications.
 * 2008 onwards: Collaboration with the Potsdam Institute for Climate Impact Research (PIK) and the Global Climate Forum (GCF)
 * FP7 FET-Open project 2010-2013: GSDP (Carlo Jaeger) \GSSpaper
 * leading up to the [FETPROACT-1-2014](http://cordis.europa.eu/programme/rcn/665162_en.html) call
-    * DOLFINS, **GRACeFUL**, CIMPLEX, \ldots
+    * DOLFINS, CIMPLEX, **GRACeFUL**, \ldots
 
 # Theory and technology for "Computer-Aided policy making"
 
-* Sequential Decision Problems TODO cite
+* Sequential Decision Problems \nocite{DBLP:journals/corr/BottaJICB16}
+    * computing optimal policies for single decision makers
 * Economic (Game) Theory
+    * equilibria, multiple decision makers
 * Agent Based Modelling
+    * simulation of plausible system trajectories
 * Network Science
-* HPC [was covered in the B. Koller's keyote yesterday]
+    * the evolution of the contact (or contagion) networks
+* High Performance Commputing (HPC)
+    * [covered in the keynote by B. Koller]
 
 # GSS Applications: some pilot projects
 
 * Green Growth
+    * simulate the spreading of "green cars" in Europe
 * Health Habits
+    * smoking and obesity spreads over facebook!
 * Global Urbanisation
+    * real-estate pricing, and public transport as cities grow
 * Climate Resiliant Urban Design
-
-TODO: fill in more about them
+    * computer-aided stakeholder interaction
+    * constraint solving and water management
 
 # GSS and language
 
@@ -43,7 +51,10 @@ TODO: fill in more about them
     * often a *large* gap between mathematical model and implementation
     * need bridging: a tower of languages connected by tools
 
-TODO: perhaps look up GRACeFUL slides about the gap?
+Note that any computer simulation (and any model) of a global system
+is bound to be a rather crude approximation in some aspects. Hopefully
+we can still make it a good approximation in the aspects we want to
+study.
 
 # Challenges
 
@@ -52,8 +63,8 @@ TODO: perhaps look up GRACeFUL slides about the gap?
     * understandable for domain experts
     * static checking, interval arithmetics
     * proof tools, automated testing
-* Mature implementations
-    * running code /= HPC-ready code
+* HPC implementations
+    * a research prototype is *far* from HPC-ready code
 * Access to data
     * open access data
     * confidentialty, security
