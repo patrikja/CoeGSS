@@ -2,9 +2,9 @@
 
 * [Patrik Jansson](https://www.chalmers.se/en/staff/Pages/patrik-jansson.aspx), Prof. of Comp. Sci., Chalmers, Sweden
 * Two current EU projects about "Global Systems Science (GSS)"
-    * [CoeGSS.eu](http://www.CoeGSS.eu/)
-    * [GRACeFUL-project.eu](http://www.GRACeFUL-project.eu/)
-    * a \href{https://twitter.com/patrikja/status/299857568392704001}{``tweet-sized definition'' (from 2013)}:
+    * [CoeGSS](http://www.CoeGSS.eu/): Centre of excellence in GSS
+    * [GRACeFUL](http://www.GRACeFUL-project.eu/): Global systems Rapid Assessment tools through Constraint FUnctional Languages
+    * a \href{https://twitter.com/patrikja/status/299857568392704001}{``tweet-sized GSS definition'' (from 2013)}:
 \begin{quote}
 GSS is about developing systems, theories, languages and tools for
 computer-aided policy making with potentially global implications.
@@ -14,11 +14,8 @@ computer-aided policy making with potentially global implications.
 
 * 2008 onwards: Collaboration with the Potsdam Institute for Climate Impact Research (PIK) and the Global Climate Forum (GCF)
 * FP7 FET-Open project 2010-2013: GSDP (Carlo Jaeger) \GSSpaper
-
-
-* leading up to the FETPROACT1 call
-
-
+* leading up to the [FETPROACT-1-2014](http://cordis.europa.eu/programme/rcn/665162_en.html) call
+    * DOLFINS, **GRACeFUL**, CIMPLEX, \ldots
 
 # Theory and technology for "Computer-Aided policy making"
 
@@ -26,7 +23,7 @@ computer-aided policy making with potentially global implications.
 * Economic (Game) Theory
 * Agent Based Modelling
 * Network Science
-* [HPC was covered in the keyote yesterday]
+* HPC [was covered in the B. Koller's keyote yesterday]
 
 # GSS Applications: some pilot projects
 
@@ -67,7 +64,7 @@ TODO: perhaps look up GRACeFUL slides about the gap?
 
 # Conclusions
 
-* The \href{https://twitter.com/patrikja/status/299857568392704001}{``tweet-sized definition'' (from 2013)}:
+* The \href{https://twitter.com/patrikja/status/299857568392704001}{``tweet-sized GSS definition'' (from 2013)}:
 \begin{quote}
 GSS is about developing systems, theories, languages and tools for
 computer-aided policy making with potentially global implications.
